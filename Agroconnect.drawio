@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T06:37:22.432Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="6CZ4xKrD0Ih2Cy_96hxV" version="20.5.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-05-12T00:00:54.381Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="gpIDhYRHdBeHeDnK32ZT" version="20.5.3" type="github" pages="3">
   <diagram id="hPiGOYGPPnfGvc4q_YOD" name="OverAll">
     <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -105,52 +105,48 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rOzlm0YnU6-BW605hTom" name="FMS-API">
-    <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZnR-_FNJLTDd92qS7el1-2" value="Lamp doesn&#39;t work" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="30" width="120" height="40" as="geometry" />
+        <mxCell id="ZnR-_FNJLTDd92qS7el1-23" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;CropPlanResponse&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="20" y="180" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZnR-_FNJLTDd92qS7el1-3" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="ZnR-_FNJLTDd92qS7el1-5" target="ZnR-_FNJLTDd92qS7el1-9">
-          <mxGeometry y="20" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="ZnR-_FNJLTDd92qS7el1-25" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;CropPlanCriteria&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="20" y="110" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZnR-_FNJLTDd92qS7el1-4" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="1" source="ZnR-_FNJLTDd92qS7el1-5" target="ZnR-_FNJLTDd92qS7el1-6">
-          <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="ZnR-_FNJLTDd92qS7el1-28" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;CropPlan&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="20" y="210" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZnR-_FNJLTDd92qS7el1-5" value="Lamp&lt;br&gt;plugged in?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
-          <mxGeometry x="30" y="110" width="100" height="80" as="geometry" />
+        <mxCell id="ZnR-_FNJLTDd92qS7el1-31" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Input&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="10" y="70" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZnR-_FNJLTDd92qS7el1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZnR-_FNJLTDd92qS7el1-6">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="610" y="190" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="ZnR-_FNJLTDd92qS7el1-32" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Output&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="10" y="140" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZnR-_FNJLTDd92qS7el1-6" value="Plug in lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="200" width="120" height="40" as="geometry" />
+        <mxCell id="ZnR-_FNJLTDd92qS7el1-33" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;GET METHODS&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="10" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZnR-_FNJLTDd92qS7el1-7" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="ZnR-_FNJLTDd92qS7el1-9" target="ZnR-_FNJLTDd92qS7el1-10">
-          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="ZnR-_FNJLTDd92qS7el1-35" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;API - get-crop-plan&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="25" y="40" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZnR-_FNJLTDd92qS7el1-8" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="1" source="ZnR-_FNJLTDd92qS7el1-9" target="ZnR-_FNJLTDd92qS7el1-11">
-          <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="ZnR-_FNJLTDd92qS7el1-36" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;CropHarvestResponse&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="280" y="180" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZnR-_FNJLTDd92qS7el1-9" value="Bulb&lt;br&gt;burned out?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
-          <mxGeometry x="30" y="230" width="100" height="80" as="geometry" />
+        <mxCell id="ZnR-_FNJLTDd92qS7el1-37" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;CropHarvestCriteria&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="280" y="110" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZnR-_FNJLTDd92qS7el1-10" value="Repair Lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="370" width="120" height="40" as="geometry" />
+        <mxCell id="ZnR-_FNJLTDd92qS7el1-38" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;HarvestForecast&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="280" y="210" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZnR-_FNJLTDd92qS7el1-11" value="Replace Bulb" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="250" width="120" height="40" as="geometry" />
+        <mxCell id="ZnR-_FNJLTDd92qS7el1-39" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Input&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="270" y="70" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnR-_FNJLTDd92qS7el1-40" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Output&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="270" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnR-_FNJLTDd92qS7el1-41" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;API - get-crop-harvest&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="270" y="40" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
