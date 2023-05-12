@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-12T21:25:49.035Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="hWfPeYgzYPMEMOgjwzrJ" version="20.5.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-05-12T21:56:34.834Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Auc4EG9qqNR94rT_1tMW" version="20.5.3" type="github" pages="8">
   <diagram id="hPiGOYGPPnfGvc4q_YOD" name="OverAll">
     <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -286,6 +286,159 @@
         </mxCell>
         <mxCell id="hCQ9TAbrmRAJ7Fqg4RLv-16" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;PurchaseType&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="680" y="230" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xo_cSTnMT5Lk5FijTJf_" name="warehouse-api">
+    <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-P7DXYKf_eH-UW3IIGkF-1" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;WarehHouses&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-P7DXYKf_eH-UW3IIGkF-2" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;WarehouseCriteria&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="80" y="110" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-P7DXYKf_eH-UW3IIGkF-3" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;WarehouseServices&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="80" y="210" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-P7DXYKf_eH-UW3IIGkF-4" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Input&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="70" y="70" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-P7DXYKf_eH-UW3IIGkF-5" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Output&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="70" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-P7DXYKf_eH-UW3IIGkF-6" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;API - get-warehouses&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-P7DXYKf_eH-UW3IIGkF-7" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;GET METHODS&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="60" y="10" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-P7DXYKf_eH-UW3IIGkF-8" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;WareHouseAvailability&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="680" y="180" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-P7DXYKf_eH-UW3IIGkF-9" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;WarehouseAvailabilityCriteria&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="680" y="110" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-P7DXYKf_eH-UW3IIGkF-10" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;AvailableWarehouse&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="680" y="210" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-P7DXYKf_eH-UW3IIGkF-11" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Input&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="670" y="70" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-P7DXYKf_eH-UW3IIGkF-12" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Output&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="670" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-P7DXYKf_eH-UW3IIGkF-13" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;API - get-available-warehouses&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="630" y="40" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-P7DXYKf_eH-UW3IIGkF-14" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;GET METHODS&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="660" y="10" width="160" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VZZSJ8GeLi_ITx6dUI5-" name="logistic-api">
+    <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UJqfR2Eg9z3g5Tw8BOc1-1" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;Logistics&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="90" y="190" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UJqfR2Eg9z3g5Tw8BOc1-2" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;LogisticCriteria&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="90" y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UJqfR2Eg9z3g5Tw8BOc1-3" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;LogisticServices&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="90" y="220" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UJqfR2Eg9z3g5Tw8BOc1-4" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Input&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJqfR2Eg9z3g5Tw8BOc1-5" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Output&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="80" y="150" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJqfR2Eg9z3g5Tw8BOc1-6" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;API - get-logistics&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="100" y="50" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJqfR2Eg9z3g5Tw8BOc1-7" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;GET METHODS&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="70" y="20" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJqfR2Eg9z3g5Tw8BOc1-9" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;LogisticAvailability&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="660" y="190" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UJqfR2Eg9z3g5Tw8BOc1-10" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;LogisticAvailabilityCriteria&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="660" y="120" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UJqfR2Eg9z3g5Tw8BOc1-11" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;Logistic&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="660" y="220" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UJqfR2Eg9z3g5Tw8BOc1-12" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Input&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="650" y="80" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJqfR2Eg9z3g5Tw8BOc1-13" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Output&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="650" y="150" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJqfR2Eg9z3g5Tw8BOc1-14" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;API - get-available-logistics&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="630" y="50" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJqfR2Eg9z3g5Tw8BOc1-15" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;GET METHODS&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="640" y="20" width="160" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bAseoOzXchu3NTYHeP64" name="retail-api">
+    <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RzmbHq_SSTK-Q4MdtC_6-1" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;Retailers&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="60" y="180" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RzmbHq_SSTK-Q4MdtC_6-2" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;RetailerCriteria&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RzmbHq_SSTK-Q4MdtC_6-3" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;RetailerPreference&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="60" y="210" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RzmbHq_SSTK-Q4MdtC_6-4" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Input&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RzmbHq_SSTK-Q4MdtC_6-5" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Output&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RzmbHq_SSTK-Q4MdtC_6-6" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;API - get-retailers&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RzmbHq_SSTK-Q4MdtC_6-7" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;GET METHODS&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="40" y="10" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RzmbHq_SSTK-Q4MdtC_6-8" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;Requirement&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="690" y="190" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RzmbHq_SSTK-Q4MdtC_6-9" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;RetailerRequirementCriteria&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="690" y="120" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RzmbHq_SSTK-Q4MdtC_6-10" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-size: 11.3pt; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;PurchaseType&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="690" y="220" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RzmbHq_SSTK-Q4MdtC_6-11" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Input&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="680" y="80" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RzmbHq_SSTK-Q4MdtC_6-12" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Output&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="680" y="150" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RzmbHq_SSTK-Q4MdtC_6-13" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;API - get-retailers-requirements&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="640" y="50" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RzmbHq_SSTK-Q4MdtC_6-14" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;GET METHODS&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="670" y="20" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RzmbHq_SSTK-Q4MdtC_6-17" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;PurchaseType&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
