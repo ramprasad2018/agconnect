@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T01:22:13.359Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="7m5hJQonDUVuxV9WyhKj" version="21.3.0" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-05-22T01:22:36.366Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="E6WjKaduw9a6RyyFZp4X" version="21.3.0" type="github" pages="15">
   <diagram id="hPiGOYGPPnfGvc4q_YOD" name="OverAll">
     <mxGraphModel dx="1050" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -301,6 +301,24 @@
         </mxCell>
         <mxCell id="c_pRnh7ufeKNHdFvCbap-12" value="DELETE /farms/123/crop-plans/123" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="45" y="1049" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c_pRnh7ufeKNHdFvCbap-13" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Cropplan CRUD Routes&lt;/b&gt;&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="555" y="810" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c_pRnh7ufeKNHdFvCbap-14" value="POST /farms/123/crop-plans" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="590" y="859" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c_pRnh7ufeKNHdFvCbap-15" value="GET /farms/123/crop-plans" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="590" y="899" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c_pRnh7ufeKNHdFvCbap-16" value="GET /farms/123/crop-plans/123" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="590" y="939" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c_pRnh7ufeKNHdFvCbap-17" value="PUT or PATCH /farms/123/crop-plans/123" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="590" y="989" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c_pRnh7ufeKNHdFvCbap-18" value="DELETE /farms/123/crop-plans/123" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1039" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
